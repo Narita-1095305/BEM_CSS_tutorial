@@ -13,32 +13,6 @@
     <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="css/style.css">
-	<script type="application/ld+json">
-        {
-            "@content": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-                {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "name": "about flower オンラインショップ",
-                    "item": "https://example.com/"
-                },
-                {
-                    "@type": "ONLINE SHOP",
-                    "position": 2,
-                    "name": "Category",
-                    "item": "https://example.com/category/"
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 3,
-                    "name": "スタッフ おまかせアレンジ",
-                    "item": "https://example.com/category/page/"
-                }
-            ]
-        }
-    </script>
 </head>
 <body>
 <div id="pagetop" class="l_container">
@@ -63,6 +37,13 @@
 			</ul>
 		</nav>
 	</header>
+	<div class="l_breadcrumb" aria-label="現在のページ">
+		<ul class="l_breadcrumb__list">
+			<li class="l_breadcrumb__item"><a href="#">Home</a></li>
+			<li class="l_breadcrumb__item"><a href="#">Online Shop</a></li>
+			<li class="l_breadcrumb__item _current" aria-current="page"><strong>Cart</strong></li>
+		</ul>
+	</div>
 </div>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
